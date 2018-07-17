@@ -165,15 +165,3 @@ contract Powerball is ERC721 {
         }
     }
 }
-
-contract forwardBlock {
-    uint[] list;
-
-    function pushStuff() {
-        list.push(1);
-    }
-
-    function getBlock() returns (uint) {
-        return block.number;
-    }
-}
